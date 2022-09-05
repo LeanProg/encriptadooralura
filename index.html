@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor1">
+            <header><img src="img/Logo.png" alt=""></header>
+                <section id="enciptador">
+                    <form action="#" name="rellenar" id="formulario">
+                    <div id="textoparaencriptar">
+                        <p id="texto">Ingrese Texto aqui Haciendo click</p>
+                        <input type="text" name="texto" id="areatexto" >
+                    </div>
+                   
+                    <div id="advertencia">
+                        <img src="img/bi_exclamation-circle-fill.png" alt=""><p>Solo letras minusculas sin acentos</p>
+                    </div>
+                    
+                    
+                    <div id="botones">
+                    <button id="encriptar" type="button" ><p>Encriptar</p></button>
+                    <button id="desencriptar" type="button"><p>Desencriptar</p></button>
+                    </div>
+                  </form>
+                </section>
+    </div>
+    <div class="contenedor2">
+        <section id="mostrador">
+            <div id="minicontenedor">
+                <img src="img/Muñeco.png" alt="imagen" id="img">
+                <h2 >Ningun Mensaje fue encontrado</h2>
+                <p >Ingresa el texto que deseas encriptar o desencriptar</p> 
+            </div>
+            
+            <div id="caja">
+                <p id="cajatexto"></p>
+            </div>  
+            
+            <div id="cajaBoton">
+                <button id="bottoncopiar">Copiar</button>
+            </div>
+        </section>
+
+    </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
